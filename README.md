@@ -12,3 +12,10 @@ const { createSecret } = require("sneak-pw");
   const link = await createSecret("Hello World");
   console.log(link);
 })();
+
+## Options
+createSecret("text", {
+  ttl: 86400,            // seconds
+  burn: 1,               // destroy on read
+  endpoint: "https://yourdomain.com/api.php"
+});
