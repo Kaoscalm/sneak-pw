@@ -19,3 +19,11 @@ createSecret("text", {
   burn: 1,               // destroy on read
   endpoint: "https://yourdomain.com/api.php"
 });
+
+## Example
+createSecret("text", {
+ttl:3600,
+burn:1,
+endpoint: "https://sneak.pw/api.php"
+});
+
