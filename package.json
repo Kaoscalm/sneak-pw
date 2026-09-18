@@ -1,0 +1,20 @@
+{
+  "name": "sneak-pw",
+  "version": "1.0.0",
+  "description": "Zero-trust ephemeral secret generator for Node.js and browser",
+  "main": "index.js",
+  "keywords": [
+    "security",
+    "crypto",
+    "secret-sharing",
+    "zero-trust",
+    "aes-gcm",
+    "ephemeral"
+  ],
+  "author": "Alessandro Rinaldi <info@scriptnet.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kaoscalm/sneak-pw.git"
+  }
+}
