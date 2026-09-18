@@ -17,13 +17,13 @@ const { createSecret } = require("sneak-pw");
 createSecret("text", {
   ttl: 86400,            // seconds
   burn: 1,               // destroy on read
-  endpoint: "https://yourdomain.com/api.php"
+  endpoint: "https://yourdomain.com/ api.php"
 });
 
 ## Example
 createSecret("text", {
 ttl:3600,
 burn:1,
-endpoint: "https://sneak.pw/api.php"
+endpoint: "https://sneak.pw/ api.php"
 });
 
